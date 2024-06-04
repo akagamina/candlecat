@@ -241,16 +241,16 @@ label {
   border-bottom: 2px solid #eae7ff;
 }
 .bg-color {
-  background: #18182f;
+  background: #2d3564;
 }
 .bg-color-2 {
-  background: #18182f;
+  background: #2d3564;
 }
 .bg-color-3 {
-  background: #18182f;
+  background: #2d3564;
 }
 .bg-color-4 {
-  background: #18182f;
+  background: #2d3564;
 }
 .area-80 {
   padding: 80px 0px;
@@ -291,13 +291,20 @@ div#preloader {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #18182f url("img/logo/preloader.gif") no-repeat center center;
+  background: #2d3564 url("img/logo/preloader.gif") no-repeat center center;
 }
 .top-text-title {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
   font-size: 17px;
+  margin-bottom: 10px;
+}
+.top-text-title-2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 34px;
   margin-bottom: 10px;
 }
 .main-title {
@@ -359,13 +366,13 @@ div#preloader {
   font-size: 10px;
 }
 .mean-container .mean-nav {
-  background: #18182f;
+  background: #2d3564;
   float: left;
   width: 100%;
 }
 .header_menu ul li ul.submenu {
   position: absolute;
-  background: #18182f;
+  background: #2d3564;
   width: 230px;
   top: 110%;
   left: 0;
@@ -420,7 +427,7 @@ div#preloader {
   top: 0;
   width: 100%;
   z-index: 999999;
-  box-shadow: 0px 0px 3px #18182f, -2px -2px 3px #18182f;
+  box-shadow: 0px 0px 3px #2d3564, -2px -2px 3px #2d3564;
   background: rgba(19, 23, 64, 0.8);
 }
 .header-area.stick .header_menu ul.main-menu > li > a {
@@ -486,7 +493,7 @@ div#preloader {
 }
 .calculator-inner {
   padding: 30px;
-  background: #18182f;
+  background: #2d3564;
   border-radius: 3px;
 }
 .calculator-inner .form-input {
@@ -731,7 +738,7 @@ button.cale-btn:hover {
 .well-services {
   padding: 30px 30px 15px;
   border-radius: 10px 50px 10px 10px;
-  background: #18182f;
+  background: #2d3564;
   margin-bottom: 30px;
   position: relative;
   z-index: 1;
@@ -1000,7 +1007,7 @@ button.cale-btn:hover {
 .token-sale-inner {
   border-radius: 5px;
   padding: 30px;
-  background: #18182f;
+  background: #2d3564;
   text-align: center;
 }
 .token-count {
@@ -1146,12 +1153,12 @@ button.cale-btn:hover {
 }
 .text-service {
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-  background: #18182f;
+  background: #2d3564;
   transition: 0.5s;
 }
 .single-service:hover {
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-  background: #18182f;
+  background: #2d3564;
   transition: 0.5s;
 }
 .service-icon img {
@@ -1187,7 +1194,7 @@ button.cale-btn:hover {
 }
 .staking-inner {
   padding: 40px;
-  background: #18182f;
+  background: #2d3564;
   border-radius: 5px;
   margin-bottom: 30px;
   position: relative;
@@ -1290,7 +1297,7 @@ button.cale-btn:hover {
 /*----------------------------------------*/
 .footer-area {
   position: relative;
-  background: #18182f none repeat scroll 0 0;
+  background: #2d3564 none repeat scroll 0 0;
   padding: 50px 0;
 }
 .footer-head p {
@@ -1374,7 +1381,7 @@ button.cale-btn:hover {
   border: 1px solid #1f1963;
 }
 .footer-area-bottom {
-  background: #18182f none repeat scroll 0 0;
+  background: #2d3564 none repeat scroll 0 0;
   padding: 25px 0;
 }
 .copyright-text a:hover {
@@ -1430,7 +1437,7 @@ button.cale-btn:hover {
 }
 .brand-content {
   display: block;
-  background: #18182f;
+  background: #2d3564;
   padding: 20px;
   border-radius: 4px;
 }
@@ -1497,7 +1504,7 @@ button.cale-btn:hover {
 /*  14. FAQ  Area
 /*----------------------------------------*/
 .faq_inner .card {
-  background: #18182f;
+  background: #2d3564;
   border: 0;
   margin-bottom: 30px;
 }
@@ -1530,6 +1537,17 @@ button.cale-btn:hover {
   color: #fff;
   border: none;
 }
+
+.bg-image {
+  object-fit: cover;
+  width: 100%;
+  z-index: 1;
+  height: 600px;
+  position: relative;
+  @media (max-width: 575px) {
+    height: auto;
+  }
+}
 .faq_inner .card-header h4 button::before {
   position: absolute;
   content: "\e622 ";
@@ -1548,12 +1566,12 @@ button.cale-btn:hover {
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-color: #18182f;
+  background-color: #2d3564;
 }
 .faq_inner .card-header h4 button.collapsed::before {
   content: "\e61a";
   font-family: themify;
-  background-color: #18182f;
+  background-color: #2d3564;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -1585,7 +1603,7 @@ button.cale-btn:hover {
   margin: 0 10px;
   padding: 12px 20px;
   position: relative;
-  border: 1px solid #18182f;
+  border: 1px solid #2d3564;
   border-radius: 2px;
   z-index: 1;
   color: #fff;
@@ -1603,7 +1621,7 @@ button.cale-btn:hover {
   margin-bottom: 30px;
   position: relative;
   overflow: hidden;
-  background: #18182f;
+  background: #2d3564;
   border-radius: 4px;
   padding: 20px;
 }
@@ -1702,7 +1720,7 @@ button.cale-btn:hover {
 /*  16. Blog Deails Area
 /*----------------------------------------*/
 .left-blog-page {
-  background: #18182f;
+  background: #2d3564;
   padding: 20px 30px;
   margin-bottom: 30px;
 }
@@ -1888,7 +1906,7 @@ button.cale-btn:hover {
   line-height: 1.42857143;
   text-decoration: none;
   color: #eee;
-  background-color: #18182f;
+  background-color: #2d3564;
   border: none;
   margin-left: -1px;
   border-radius: 2px;
@@ -1978,8 +1996,8 @@ h3.comment-reply-title {
   border-radius: 50%;
 }
 .comments-details {
-  background: #18182f;
-  border: 1px solid #18182f;
+  background: #2d3564;
+  border: 1px solid #2d3564;
   overflow: hidden;
   padding: 30px;
 }
@@ -2000,7 +2018,7 @@ blockquote {
   border-left: none;
   font-style: italic;
   position: relative;
-  background: #18182f;
+  background: #2d3564;
 }
 blockquote::before {
   position: absolute;
@@ -2134,13 +2152,13 @@ span.email-notes {
   display: block;
   overflow: hidden;
   padding: 40px;
-  background: #18182f;
+  background: #2d3564;
   border-radius: 4px;
   margin-right: 50px;
 }
 .contact-form input[type="text"],
 .contact-form input[type="email"] {
-  border: 1px solid #18182f;
+  border: 1px solid #2d3564;
   border-radius: 0;
   height: 50px;
   margin-bottom: 15px;
@@ -2149,7 +2167,7 @@ span.email-notes {
   background: transparent;
 }
 .contact-form textarea#message {
-  border: 1px solid #18182f;
+  border: 1px solid #2d3564;
   border-radius: 0px;
   height: 170px;
   padding: 20px;
@@ -2164,14 +2182,14 @@ span.email-notes {
 .contact-single {
   padding: 50px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-  background: #18182f;
+  background: #2d3564;
 }
 .contact-image {
   margin-right: 30px;
 }
 .contact-head {
   padding: 30px 40px;
-  background: #18182f;
+  background: #2d3564;
   margin-right: 40px;
 }
 .project-social {
@@ -2233,7 +2251,7 @@ span.email-notes {
 .single-member {
   padding: 40px 30px;
   text-align: center;
-  background: #18182f;
+  background: #2d3564;
   margin-bottom: 30px;
   position: relative;
   z-index: 1;
@@ -2340,7 +2358,7 @@ span.email-notes {
   opacity: 0.98;
 }
 .login-form {
-  background: #18182f;
+  background: #2d3564;
   padding: 40px 50px;
   margin: 0px 80px;
   border-radius: 4px;
@@ -2495,19 +2513,19 @@ span.email-notes {
 /* 19 .user Panel CSS
 /*--------------------------------*/
 .dashboard-menu {
-  background: #18182f;
+  background: #2d3564;
   padding: 30px;
 }
 .dashboard-side {
   margin-right: 20px;
 }
 .single-dash-head {
-  background: #18182f;
+  background: #2d3564;
   margin-bottom: 30px;
   padding: 20px;
 }
 .dashboard-head {
-  background: #18182f;
+  background: #2d3564;
   margin-bottom: 30px;
   padding: 40px 20px 10px;
 }
@@ -2601,7 +2619,7 @@ span.email-notes {
   height: 54px;
 }
 .table-inner tr:nth-child(even) {
-  background-color: #18182f;
+  background-color: #2d3564;
 }
 .table-inner td i {
   color: #ea472a;
@@ -2612,7 +2630,7 @@ span.email-notes {
 }
 .user-top {
   padding: 30px;
-  background: #18182f;
+  background: #2d3564;
   margin-bottom: 40px;
   border-radius: 3px;
 }
@@ -2637,7 +2655,7 @@ span.email-notes {
 /*  21.User Information CSS
 /*----------------------------------------*/
 .user-info-inner {
-  background-color: #18182f;
+  background-color: #2d3564;
   padding: 30px 30px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
