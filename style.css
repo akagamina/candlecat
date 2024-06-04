@@ -307,6 +307,24 @@ div#preloader {
   font-size: 34px;
   margin-bottom: 10px;
 }
+
+.did-you-know {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  @media (max-width: 575px) {
+    display: block;
+  }
+}
+
+.did-you-know img {
+  width: 70%;
+  @media (max-width: 575px) {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
 .main-title {
   font-size: 56px;
   line-height: 64px;
