@@ -141,7 +141,7 @@ h1 {
 h2 {
   font-size: 44px;
   line-height: 56px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 h3 {
@@ -303,7 +303,7 @@ div#preloader {
 .main-title {
   font-size: 56px;
   line-height: 64px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .well-service-text p {
   font-size: 18px;
@@ -477,7 +477,7 @@ div#preloader {
   font-weight: 700;
   line-height: 76px;
   margin-bottom: 20px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .money-send {
   margin: 30px 30px 0px 90px;
@@ -719,7 +719,7 @@ button.cale-btn:hover {
   font-weight: 700;
   line-height: 90px;
   margin-bottom: 20px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   text-transform: uppercase;
 }
 /*--------------------------------*/
@@ -1027,7 +1027,7 @@ button.cale-btn:hover {
   display: block;
 }
 .token-count li .token-day {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
   text-transform: uppercase;
   padding-top: 8px;
   display: block;
@@ -2588,7 +2588,7 @@ span.email-notes {
   position: relative;
 }
 .table-inner table {
-  font-family: arial, sans-serif;
+  font-family: "Nunito", sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
@@ -2909,7 +2909,7 @@ span.email-notes {
 }
 
 .copied {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
   width: 100px;
   opacity: 0;
   position: fixed;
