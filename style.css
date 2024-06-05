@@ -2962,7 +2962,7 @@ span.email-notes {
 
 .copy-btn {
   width: 32px;
-  background-color: white;
+  background-color: inherit;
   font-size: 18px;
   padding: 2px 5px;
   border-radius: 5px;
