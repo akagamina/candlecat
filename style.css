@@ -969,6 +969,15 @@ button.cale-btn:hover {
   text-shadow: 0 0 20px #48c8ff;
   background: #2d3564;
   text-align: center;
+  @media (max-width: 768px) {
+    font-size: 4em;
+  }
+  @media (max-width: 575px) {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 #timer div {
