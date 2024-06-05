@@ -117,7 +117,7 @@ preloader
 ---------------------*/
   var brand = $(".brand-carousel");
   brand.owlCarousel({
-    loop: true,
+    loop: false,
     nav: false,
     margin: 30,
     dots: false,

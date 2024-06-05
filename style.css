@@ -333,6 +333,21 @@ div#preloader {
     font-size: 24px;
   }
 }
+.candle-left img {
+  display: block;
+  position: absolute;
+  right: -40%;
+  top: -60px;
+  width: 200px;
+  @media (max-width: 768px) {
+    display: block !important;
+    width: 80px;
+    object-fit: cover;
+    rotate: -20deg;
+    top: 18%;
+    right: -30px;
+  }
+}
 .main-title {
   font-size: 56px;
   line-height: 64px;
