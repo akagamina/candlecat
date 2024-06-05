@@ -217,19 +217,17 @@ preloader
 })(jQuery);
 
 function updateTimer() {
-  future = Date.parse("july 9, 2024 11:30:00");
-  now = new Date();
-  diff = future - now;
+  var countFromDate = new Date("April 9, 2024 00:00:00").getTime();
+  var now = new Date().getTime();
 
-  days = Math.floor(diff / (1000 * 60 * 60 * 24));
-  hours = Math.floor(diff / (1000 * 60 * 60));
-  mins = Math.floor(diff / (1000 * 60));
-  secs = Math.floor(diff / 1000);
+  // Calculate the elapsed time
+  var distance = now - countFromDate;
 
-  d = days;
-  h = hours - days * 24;
-  m = mins - hours * 60;
-  s = secs - mins * 60;
+  // Calculate days, hours, minutes, and seconds
+  var d = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var s = Math.floor((distance % (1000 * 60)) / 1000);
 
   document.getElementById("timer").innerHTML = `
       <div>${d} :<span>days</span></div>
