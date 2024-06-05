@@ -961,6 +961,27 @@ button.cale-btn:hover {
 .about-icon:hover {
   color: #fff;
 }
+
+#timer {
+  font-size: 8em;
+  font-weight: 100;
+  color: white;
+  text-shadow: 0 0 20px #48c8ff;
+  background: #2d3564;
+  text-align: center;
+}
+
+#timer div {
+  display: inline-block;
+  min-width: 90px;
+}
+
+#timer div span {
+  color: #b1cdf1;
+  display: block;
+  font-size: 0.35em;
+  font-weight: 400;
+}
 .support-text {
   padding-left: 70px;
   @media (max-width: 575px) {
