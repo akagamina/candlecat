@@ -313,14 +313,14 @@ div#preloader {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-  @media (max-width: 575px) {
+  @media (max-width: 768px) {
     display: block;
   }
 }
 
 .did-you-know img {
   width: 60%;
-  @media (max-width: 575px) {
+  @media (max-width: 768px) {
     width: 100%;
     margin-top: 20px;
   }
