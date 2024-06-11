@@ -310,14 +310,29 @@ div#preloader {
   color: #fff;
 }
 
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top:40px;
+}
+
+video {
+    width: 50%;
+    height: 75vh; 
+}
+
 .did-you-know {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  @media (max-width: 768px) {
-    display: block;
-  }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+        display: block;
+    }
 }
 
 .did-you-know img {
