@@ -1,51 +1,4 @@
-/*-----------------------------------------------------------------------------------
-
-    Template Name: Graphbit - Cypto Currency HTML Template
-    Template URI: http://rockstheme.com
-    Description: This is html5 template
-    Author: Rocks_theme
-    Author URI: http://rockstheme.com
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
-
-/*-----------------------------------------------------------------------------------  
-
-    CSS INDEX
-    ===================
-    1. Theme default css
-    2 Header bottom area
-    3. Intro area
-    4. Welcome services area
-    5. About Area
-    6. Information Area
-    7.Token sale CSS
-    8. Services Area
-    9. Stacking Area Css
-    10. Wallet download Area
-    11. Footer Area
-    12. Home-2 Area
-    13. Breadcumbs Area
-    14. FAQ  Area
-    15. Blog page Area
-    16. Blog Deails Area
-    17.	Contact Us page
-
-    18. Login And Register page
-    19.User panel  CSS
-    20. Animation css
-
-    
------------------------------------------------------------------------------------*/
-
-/*----------------------------------------*/
-/*  Google Fonts
-/*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,600&family=Nunito:wght@300;400;500;600;700&display=swap");
-
-/*----------------------------------------*/
-/*  1.  Theme default CSS
-/*----------------------------------------*/
 
 body {
   font-family: "Nunito", sans-serif;
@@ -311,28 +264,28 @@ div#preloader {
 }
 
 .video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    margin-top:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 40px;
 }
 
 video {
-    width: 50%;
-    height: 75vh; 
+  width: 50%;
+  height: 75vh;
 }
 
 .did-you-know {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 
-    @media (max-width: 768px) {
-        display: block;
-    }
+  @media (max-width: 768px) {
+    display: block;
+  }
 }
 
 .did-you-know img {
@@ -542,81 +495,7 @@ video {
   margin-bottom: 20px;
   font-family: "Nunito", sans-serif;
 }
-.money-send {
-  margin: 30px 30px 0px 90px;
-  position: relative;
-  z-index: 1;
-}
-.calculator-inner {
-  padding: 30px;
-  background: #2d3564;
-  border-radius: 3px;
-}
-.calculator-inner .form-input {
-  border: 1px solid #0d102d;
-  background: #0f1336;
-  height: 52px;
-  border-radius: 0px;
-  padding: 5px 15px;
-  width: 74%;
-  margin-bottom: 20px;
-  border-right: 0px solid #f1f1f1;
-}
-.calculator-inner form {
-  display: block;
-}
-.inner-form-text {
-  text-align: left;
-}
-.rate-text {
-  justify-content: space-between;
-}
-.rate-text span {
-  font-size: 14px;
-  margin: 0px 6px;
-  color: #ddd;
-  text-transform: capitalize;
-}
-.money-send .calculator-inner .nice-select {
-  border: 1px solid #050830;
-  background-color: #050830;
-  border-radius: 0 2px 2px 0;
-  width: 26%;
-  height: 52px;
-  padding: 0 35px 0 24px;
-  line-height: 54px;
-  font-size: 17px;
-  font-weight: 700;
-  float: right;
-}
-.money-send .calculator-inner .nice-select:after {
-  border-bottom: 2px solid #fff;
-  border-right: 2px solid #fff;
-  content: "";
-  display: block;
-  height: 8px;
-  margin-top: -5px;
-  right: 15px;
-  width: 8px;
-}
-.money-send .calculator-inner .nice-select .list {
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
-  background-color: #0f1336;
-  width: 100%;
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 20px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.money-send .calculator-inner .nice-select .option:hover,
-.money-send .calculator-inner .nice-select .option.focus,
-.money-send .calculator-inner .nice-select .option.selected.focus,
-.money-send .calculator-inner .nice-select .current {
-  color: #fff;
-  background: transparent;
-}
+
 button.cale-btn {
   width: 100%;
   color: #fff;
@@ -633,34 +512,17 @@ button.cale-btn:hover {
   background: #ab46d2;
   transition: 0.4s;
 }
-.terms-text {
-  margin-top: 20px;
-  text-align: center;
-}
-.terms-text a {
-  color: #ff06b7;
-}
-.terms-text p {
-  font-size: 14px;
-  margin-bottom: 0px;
-}
-.inner-form label {
-  display: block;
-  width: 100%;
-  font-weight: 600;
-  font-size: 14px;
-  color: #fff;
-  text-transform: capitalize;
-}
-.swap-left span {
-  border: 1px solid #ff06b7;
-  background: #ff06b7;
-  color: #fff;
-  padding: 5px 20px;
-}
+
 .dashboard-right-menus li {
   display: inline-block;
   position: relative;
+}
+
+.candle-image {
+  margin-left: -80px;
+  @media (max-width: 768px) {
+    margin-left: 0;
+  }
 }
 .dashboard-right-menus > li > a {
   width: 38px;
@@ -693,10 +555,7 @@ button.cale-btn:hover {
   width: 450px;
   height: 200px;
 }
-.swap-top {
-  margin-bottom: 30px;
-  justify-content: space-between;
-}
+
 .notification-area.active {
   visibility: visible;
   opacity: 1;
@@ -717,139 +576,14 @@ button.cale-btn:hover {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-.notifacation-header {
-  padding: 30px;
-}
-.set-text {
-  font-size: 20px;
-  font-weight: 700;
-  display: block;
-  margin-bottom: 30px;
-}
-.set-text i {
-  padding-right: 10px;
-}
-.swap-set {
-  display: block;
-  margin-bottom: 30px;
-}
-.swap-set ul li {
-  margin-right: 10px;
-}
-.swap-set ul li a {
-  border: 1px solid #ff06b7;
-  background: #ff06b7;
-  color: #fff;
-  padding: 5px 20px;
-  border-radius: 3px;
-  display: block;
-}
-.swap-set ul li a:hover {
-  border: 1px solid #ab46d2;
-  background: #ab46d2;
-  color: #fff;
-  padding: 5px 20px;
-  border-radius: 3px;
-  display: block;
-}
-.swap-set ul {
-  display: block;
-  padding: 20px 0px;
-}
-.author-body {
-  padding: 40px 40px;
-}
-.author-body span {
-  font-size: 17px;
-  color: #ddd;
-}
-.middle-inti {
-  display: block;
-}
-.middle-inti a {
-  width: 36px;
-  height: 36px;
-  line-height: 40px;
-  font-size: 20px;
-  background: #ff06b7;
-  border-radius: 50%;
-  display: inline-block;
-  color: #fff;
-}
-.slide-text-2 .title-2 {
-  color: #fff;
-  font-size: 70px;
-  font-weight: 700;
-  line-height: 90px;
-  margin-bottom: 20px;
-  font-family: "Nunito", sans-serif;
-  text-transform: uppercase;
-}
+
 /*--------------------------------*/
 /* 4.Welcome services area
 /*--------------------------------*/
 .welcome-area {
   position: relative;
 }
-.well-services {
-  padding: 30px 30px 15px;
-  border-radius: 10px 50px 10px 10px;
-  background: #2d3564;
-  margin-bottom: 30px;
-  position: relative;
-  z-index: 1;
-}
-.well-services::after {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  content: "";
-  background: url(img/feature/layer2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left top;
-  z-index: -1;
-}
-.three-well {
-  margin-top: 100px;
-}
-.big-icon img {
-  width: 70px;
-  display: inline-block;
-  height: 70px;
-}
-.wel-content h4 {
-  display: inline-block;
-  font-size: 22px;
 
-  margin-bottom: 0;
-  padding: 0 0 10px;
-  @media (max-width: 575px) {
-    margin-top: 20px;
-  }
-}
-.wel-content p {
-  font-size: 16px;
-}
-.wel-content a {
-  position: relative;
-  font-weight: 500;
-  color: #444;
-}
-.services-img {
-  width: 111px;
-  height: 111px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 33px;
-  position: relative;
-}
-.well-service-text {
-  margin-left: 60px;
-}
 /*----------------------------------------*/
 /* 5. About Area
 /*----------------------------------------*/
@@ -859,9 +593,7 @@ button.cale-btn:hover {
 .about-text {
   margin-top: 25px;
 }
-.flat-content {
-  display: block;
-}
+
 .ab-mark-text li {
   display: block;
   position: relative;
